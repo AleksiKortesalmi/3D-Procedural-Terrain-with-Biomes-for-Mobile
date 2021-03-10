@@ -1,5 +1,5 @@
 ﻿# 3D Procedural Terrain with Biomes for Mobile
-This is a simple procedural terrain generator for the Unity 3D game engine, geared towards mobile game development. Developed on Unity 2020.1.2f1. Inspired by [this video](https://www.youtube.com/watch?v=f9uueg_AUZs) by Adam Zmudzinski.
+This is a simple procedural terrain generator for the Unity 3D game engine, geared towards mobile game development. Developed on Unity 2020.1.2f1. The base for this project was inspired by [this procedural terrain implementation](https://www.youtube.com/watch?v=f9uueg_AUZs) by Adam Zmudzinski.
 
 ## Key Features
 - Endless **Biomes** using a **Voronoi Diagram** implementation.
@@ -11,11 +11,6 @@ This is a simple procedural terrain generator for the Unity 3D game engine, gear
 1. **Import** ProceduralTerrainForMobile folder into your project.
 2. **Create** an empty GameObject in a scene and add TerrainController.cs to it.
 3. **Assign** Player, Water, TilePrefab and the first biome's prefab on the TerrainController.
-
-## Roadmap
-- [ ] Smooth shading
-- [ ] UV map support
-- [ ] Edit mode preview
 
 ## Example Scene Screenshots
 ![TileOrthoAndInspector.PNG](TileOrthoAndInspector.PNG)
